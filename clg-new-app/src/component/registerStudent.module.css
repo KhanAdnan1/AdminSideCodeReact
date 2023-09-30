@@ -1,0 +1,83 @@
+.studentSection{
+  background-color: #B2BEB5;
+  width: 50em;
+  height: 30em;
+  position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.drop{
+  background-color: black;
+  height: 15px;
+  margin-top: 5px;
+  width: 100%;
+  
+  
+}
+.select{
+  background-color: #fff;
+  width: 100%;
+}
+.class{
+ 
+  width: 75px;
+  background-color: #fff;
+  margin-left: 43%;
+  margin-top: 5px;
+  text-align: center;
+  
+}
+
+.register{
+    margin-left: 53px;
+    margin-top: 15px;
+    width: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    color: black;
+    font-weight: 500;
+    
+}
+
+
+.student{
+  float: left; /* Float the "Student" component to the left */
+  margin-left: 45px;
+  height: 375px;
+  width: 280px;
+  margin-top: 25px;
+  background-color: #D3D3D3;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.student input{
+  background-color:whitesmoke;
+  border-radius: 8px;
+  border: 0;
+  box-sizing: border-box;
+  color: black;
+  font-size: 18px;
+  height: 100%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 250px;
+  margin-left: 15px;
+  margin-top: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.sub{
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 60px;
+    height: 20px;
+    cursor: pointer;
+}
+.sub:active{
+  background-color: #808080;
+}

@@ -1,0 +1,52 @@
+
+.edit {
+    overflow-y: auto;
+    float: left; /* Float the "Edit" component to the left */
+    margin-right: 20px; /* Add margin to create space between components */
+    margin-left: 150px;
+    margin-top: 25px;
+    height: 375px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  
+  /* Style for the list of students */
+  .editList {
+    
+    width: 250px;
+    background-color: bisque;
+    margin-top: 10px;
+    margin-left: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    list-style-type: none; /* Remove list bullets */
+   
+  }
+  
+  
+  .studentItem {
+    align-items: center; 
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Add a border to separate students */
+  }
+  .name {
+    height: 20px;
+    font-size: 20px;
+    font-weight:  200;
+    
+  }
+  
+.userID {
+    font-size: 20px;
+    font-weight: 500;
+  }
+.btn{
+    display: flex;
+    gap: 50px;
+}
+button{
+   width: 50px; 
+}

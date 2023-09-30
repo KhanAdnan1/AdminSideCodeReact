@@ -1,0 +1,92 @@
+
+.nowelSectioon{
+    background-color: #B2BEB5;
+    width: 50em;
+    height: 30em;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.addNowels{
+    width: 95%;
+    height: 25px;
+    margin-top: 15px;
+    margin-left: 25px;
+    text-align: center;
+    background-color:#D3D3D3 ;
+    font-weight: 500;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.nowels{
+  float: left; /* Float the "Student" component to the left */
+  margin-left: 45px;
+  margin-top: 30px;
+  height: 350px;
+  width: 280px;
+  background-color: #D3D3D3;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.input{
+  background-color:whitesmoke;
+  border-radius: 8px;
+  border: 0;
+  box-sizing: border-box;
+  color: black;
+  font-size: 18px;
+  height: 100%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 250px;
+  margin-left: 15px;
+  margin-top: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.file{
+    background-color: #D3D3D3;
+  border-radius: 8px;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  height: 100%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 250px;
+  margin-left: 5px;
+  margin-top: 20px;
+  padding-left: 8px;
+}
+.pdf{
+    color: red;
+    margin-left: 20px;
+    font-weight: 500;
+  
+  }
+.sub{
+  
+    background-color:whitesmoke;
+    border-radius: 8px;
+    border: 0;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 250px;
+    margin-left: 15px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+.sub:active{
+    background-color: #808080;
+    color: #fff;
+}
+
+  
